@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        
+
+</style>
+</head>
+<body>
+
+<h1>Instructor dashboard</h1>
+<h3><button onclick="document.location='tojustmonitor.html'">monitor game</button></h3>
+<table style="width:100%">
+        <tr>
+          <th>Game number</th>
+          <th>Time delay between supply chain partners</th>
+          <th>Is Wholesaler present?</th>
+          <th>Is Retailer present?</th>
+          <th>Current cost of the system</th>
+          <th>Demand pattern</th>
+          <th>Holding cost</th>
+          <th>Backorder cost</th>
+          <th>Number of weeks completed</th>
+          <th>Reset the game?</th>
+          <th>Stop/Continue This game</th>
+          <th>Week to stop</th>
+          <th>Supply chain password</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>
+                <label for="orgname"></label>
+                <select id="text" name="orgname">
+                        <option value="1 week">1 week</option>
+                        <option value="2 weeks">2 weeks</option>
+                        <option value="3 weeks">3 weeks</option>
+                        <option value="4 weeks">4 weeks</option>
+                </select></td>
+          <td>
+                <label for="orgname"></label>
+                <select id="text" name="orgname">
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                </select></td>
+          <td>
+                <label for="orgname"></label>
+                <select id="text" name="orgname">
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                </select></td>
+          <td>48</td>
+          <td>1</td>
+          <td>0.5</td>
+          <td>1</td>
+          <td>2</td>
+          <td><input type="submit" value="Reset"></td>
+          <td><input type="submit" value="Pause"></td>
+          <td>36</td>
+          <td><button onclick="document.location='playerpasswords.html'">Player passwords</button></td> 
+
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>
+                    <label for="orgname"></label>
+                    <select id="text" name="orgname">
+                            <option value="1 week">1 week</option>
+                            <option value="2 weeks">2 weeks</option>
+                            <option value="3 weeks">3 weeks</option>
+                            <option value="4 weeks">4 weeks</option>
+                    </select></td>
+            <td>
+                    <label for="orgname"></label>
+                    <select id="text" name="orgname">
+                            <option value="yes">yes</option>
+                            <option value="no">no</option>
+                    </select></td>
+            <td>
+                    <label for="orgname"></label>
+                    <select id="text" name="orgname">
+                            <option value="yes">yes</option>
+                            <option value="no">no</option>
+                    </select></td>
+                <td>48</td>
+                <td>1</td>
+                <td>0.5</td>
+                <td>1</td>
+                <td>2</td>
+                <td><input type="submit" value="Reset"></td>
+                <td><input type="submit" value="Pause"></td>
+                <td>36</td>
+                <td><button onclick="document.location='playerpasswords.html'">Player passwords</button></td> 
+              </tr>
+      </table>
+      <br>
+
+
+      <button onclick="document.location='update.html'">Update</button>
+      <input type="submit" value="Reset all games">
+      <input type="submit" value="Pause all games">
+      <button onclick="document.location='printallpasswords.html'">print player passwords</button>
+      <input type="submit" value="Change the number of games">
+      <button onclick="document.location='tojustmonitor.html'">monitor game</button>
+      <button onclick="document.location='infosharing.html'">info sharing</button>
+      <button onclick="document.location='updateinitialsettings.html'">update initial settings</button>
+      <input type="submit" value="Plot of Demand 1">
+      <input type="submit" value="Plot of demand 2">
+      <button onclick="document.location='updatecustomdemand.html'">Update custom demand</button>
+      
+
+
+    </body>
+</html> 

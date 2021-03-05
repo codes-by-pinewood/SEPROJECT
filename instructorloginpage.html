@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1> Instructor View</h1>
+<p1>Please enter the following to create a game for your institution/organisation/class:</p1>
+<br><br><br>
+
+
+<form id="create-member" onkeydown="return event.key != 'Enter'">
+    <label for="inst_email">Email:</label>
+    <input type="text" id="inst_email" name="inst_email">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <button id='create-user'>Create Account</button>
+    
+</form>
+<script src="helpers.js"></script>
+<script src="signup.js"></script>
+</body>
+
+</html>
