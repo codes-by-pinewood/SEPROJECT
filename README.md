@@ -1,10 +1,11 @@
-#README for beergame
+# README for beergame
+
 ** Version 1.0.0.**
 Documentation for the beer game website that illustrates the supply-chain and bull-whip effect
 
 ---
 
-##Main Contributors
+## Main Contributors
 
 - Sherry Usman
 - Nitesh Khatiwada
