@@ -9,7 +9,24 @@ Sprint 1
 - Sherry Usman
 - Nitesh Khatiwada
 
-## Overview
+## File Structure
+<pre>
+    <code>
+        \--static
+            \--css
+                |--styles.css
+        \--templates
+            |--base.html
+            |--login.html
+            |--register.html
+            |--player_login.html
+        \--tests
+            |--test_sprint1.py
+        |--app.py
+    </code>
+</pre>
+
+## Overview --------------------- Let's remove for now!
 
 For the second phase of this project, we created a website version of the beer game using basic HTML, CSS and Javascript for Frontend and Python and Flask for back-end.
 
@@ -39,11 +56,13 @@ Installations
 
 ## Game Instructions
 
+First setup the MySQL Server Connection. Navigate to the directory where <code> app.py </code> is kept. Run <code> python3 app.py </code>. This establishes the server and now navigate to <code> https://localhost:5000/login </code>. This is the landing page where instructor can login and register for the account.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Open the website by clicking the welcomepage.html and decide whether you are an instructor or a student. Proceed to logging in on the next page or creating a new account on the next page.This button will redirect you to another page called depending on your identity. If you identify as an instructor you can proceed to the instructor dashboard which shows the list of games available and also the multiple functions provided by numerous buttons such as ‘print player passwords’, ‘update custom demand’ and so on. All these are meant to manipulate the settings of the games that are already created. The two additional buttons ‘create game’ and ‘delete game’ allow the instructor to create new games (as shown in figure 1) and delete games (as shown in figure 2).
 <img src="/screenshots/screenshot4.png" width="500" height="350">
-
 If you identify as a player you can proceed to the list of games and then select a specific game out of the list. Then one has to choose between the different players on a page titled ‘which one are you?’ (whether they are a manufacturer, wholesaler, retailer or distributor) as shown in figure 1.
-
 <img src="screenshots/screenshot1.png" width="500" height="350">
 
 After choosing your role, the game begins and you are redirected to a player screen as shown in figure 2 (which shows the player screen of a manufacturer).
