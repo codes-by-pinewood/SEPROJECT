@@ -31,16 +31,16 @@ This game consists of four different players: manufacturers, distributors, whole
 ## Game Instructions
 
 Open the website by clicking the welcomepage.html and decide whether you are an instructor or a student. Proceed to logging in on the next page or creating a new account on the next page.This button will redirect you to another page called depending on your identity. If you identify as an instructor you can proceed to the instructor dashboard which shows the list of games available and also the multiple functions provided by numerous buttons such as ‘print player passwords’, ‘update custom demand’ and so on. All these are meant to manipulate the settings of the games that are already created. The two additional buttons ‘create game’ and ‘delete game’ allow the instructor to create new games (as shown in figure 1) and delete games (as shown in figure 2).
-<img src="/screenshots/screenshot4.png" width="500" height>
+<img src="/screenshots/screenshot4.png" width="500" height="350">
 
 If you identify as a player you can proceed to the list of games and then select a specific game out of the list. Then one has to choose between the different players on a page titled ‘which one are you?’ (whether they are a manufacturer, wholesaler, retailer or distributor) as shown in figure 1.
 
-<img src="screenshots/screenshot1.png" width="500" height="500">
+<img src="screenshots/screenshot1.png" width="500" height="350">
 
 After choosing your role, the game begins and you are redirected to a player screen as shown in figure 2 (which shows the player screen of a manufacturer).
 
-<img src="/screenshots/screenshot2.png" width="500" height="500">
+<img src="/screenshots/screenshot2.png" width="500" height="350">
 
 The first screen shows things personal to the player themselves such as the number of player inventory, amount ordered and amount shipped. As seen, the amount ordered can be imputed and modified. Furthermore, the second quadrant shows in table format the week, inventory/backorder, demand, incoming shipment and outgoing shipment of the manufacturer The 3rd quadrant shows information regarding other players which may or may not be available depending on the info-sharing button. The 4rth quadrant shows general settings of the game itself such as the holding cost and backorder cost, the upstream and downstream players ( players up and down the supply chain) and the information delay. The various buttons are used to plot the data as shown below. While these still contain only dummy values, they will be modified later on to better visualise the game progression.
 
-<img src="/screenshots/screenshot3.png" width="500" height="500">
+<img src="/screenshots/screenshot3.png" width="500" height="350">
